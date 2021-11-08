@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            /*Faça um programa que simule uma calculadora básica, 
+            provendo a leitura de um valor, seguido da operação e do segundo valor.*/
+            let valor1=parseFloat(prompt('Digite o primeiro valor: ')) 
+            let operação=prompt('Escolha a operação: \nSoma (+) \nSubtração (-) \nMultiplicação (*) \nDivisão (/)') 
+            let valor2=parseFloat(prompt('Digite o segundo valor: '))
+             
+
+             switch(operação){
+                case "+":
+                    soma=valor1+valor2
+                    document.write("O resultado é: "+soma)
+                break
+                case "-":
+                    subtração=valor1-valor2
+                    document.write("O resultado é: "+subtração)
+                break
+                case "*":
+                    multiplicação=valor1*valor2
+                    document.write("O resultado é: "+multiplicação)
+                break
+                case "/":
+                    divisão=valor1/valor2
+                    document.write("O resultado é: "+divisão)
+                break
+                default:
+                    document.write("ERRO!")
+                break
+             }
+
+        </script>

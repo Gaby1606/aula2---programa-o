@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+        /*6) Escreva um programa que indique o número de dias existentes em um mês.
+        Número de dias Mês 28 – 02; 30- 04, 06, 09, 11; 31 - 01, 03, 05, 07, 08, 10, 12.*/
+        let dias=prompt("Digite a quantidade de dias do mês: ")
+        switch(dias){
+            case '28':
+                document.write("O respectivo mês que cpntém essa quantidade de dias é: 02.")
+            break;
+            case '30':
+                document.write("O s respectivos meses que contém essa quantidade de dias são: 04, 06, 09, 11.")
+            break;
+            case '31':
+                document.write("Os respectivos meses que contém essa quantidade de dias são: 01, 03, 05, 07, 08, 10, 12.")
+            break;
+            default:
+                document.write("Esse mês não existe.")
+        }
+        </script>
+        <body></body>
+    </head>
+</html>

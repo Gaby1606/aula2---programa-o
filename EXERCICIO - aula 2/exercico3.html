@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+        /*Escreva um programa que leia o código de um determinado produto e mostre a
+        sua classificação. Utilize a tabela abaixo como referência: Código Descrição 1
+        Alimento não-perecível 2 Alimento perecível 3 Vestuário 4 Limpeza.*/
+        var produto
+        var produto=prompt("Escolha entre as opções: \nCódigo (1) \nCódigo (2) \nCódigo (3) \nCódigo (4)");
+
+        switch(produto){
+            case "1":
+                document.write("Alimento não perecível")
+            break 
+            case "2":
+                document.write("Alimento perecível")
+            break
+            case "3":
+                document.write("Vestuário")
+            break
+            case "4":
+                document.write("Limpeza")
+            break
+            default:
+                document.write("ERRO!")
+            break
+            }
+        </script>
+        <body></body>
+    </head>
+</html>    
